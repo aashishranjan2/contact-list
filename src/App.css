@@ -1,0 +1,114 @@
+h2 {
+  text-align: center;
+}
+tr,
+td {
+  padding: 0 5px;
+}
+
+.card-title {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  line-height: 0;
+  width: max-content;
+}
+.nav > li {
+  background: #454141;
+}
+.nav > li.active {
+  background: #fff;
+}
+.tab-content ul:first-child {
+  display: block;
+}
+.nav-tabs > li > a:hover {
+  border-color: #ffffff;
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.fontWeight {
+  font-weight: bold;
+  font-size: 1em;
+}
+.bdr-div {
+  border: 1px dotted rgb(160, 160, 152);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.col-sm-4 {
+  padding-left: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  background: transparent;
+}
+.nav-tabs > li > a {
+  color: #fff;
+}
+.nav-tabs > li > a:hover {
+  color: #000000;
+}
+.loader {
+  text-align: center;
+  margin: 20px 0;
+}
+.loader-off {
+  display: none;
+}
+.btn-primary {
+  width: 60px;
+    height: 50px;
+}
+/* Set height of body and the document to 100% */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {
+  background-color: red;
+}
+#News {
+  background-color: green;
+}
+#Contact {
+  background-color: blue;
+}
+#About {
+  background-color: orange;
+}

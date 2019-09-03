@@ -48,13 +48,6 @@ export default class App extends React.Component {
     }
     this.setState({ contactList: groupedContacts });
   }
-  sum(a, b) {
-    return a + b;
-  }
-
-  testFn() {
-    return "Vijay";
-  }
 
   render() {
     return (
